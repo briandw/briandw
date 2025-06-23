@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "posts/2025-06-23-hello-world.html",
+    "href": "posts/2025-06-23-hello-world.html",
+    "title": "Hello, world",
+    "section": "",
+    "text": "Welcome! This blog will cover practical AI engineering, Rust adventures, and the odd musings on software security startups.\ndef greet(name: str) -&gt; None:\n    print(f\"👋  Hello, {name}!\")\n\ngreet(\"reader\")\nThat’s it for day 0; stay tuned."
+  },
+  {
+    "objectID": "posts/2025-06-24-demo.html",
+    "href": "posts/2025-06-24-demo.html",
+    "title": "AI & Code",
+    "section": "",
+    "text": "print('Hello from Quarto notebook!')"
+  }
+]

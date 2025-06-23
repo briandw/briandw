@@ -2,22 +2,25 @@ project:
   type: website
 
 website:
-  title: "AI & Code"
-  site-url: "https://<github‑user>.github.io/ai-code-blog"
+  title: "Coding with AI"
+  site-url: "https://briandw.github.io/ai-code-blog"
   navbar:
     right:
       - icon: github
-        href: https://github.com/<github‑user>/ai-code-blog
+        href: https://github.com/briandw/ai-code-blog
       - icon: rss
         href: blog.xml
   google-analytics: "G-XXXXXXX"   # TODO: replace with your GA4 measurement ID
   comments:
     giscus:
-      repo: "<github‑user>/ai-code-blog"   # enable GitHub Discussions + install Giscus app
+      repo: "briandw/briandw"   # enable GitHub Discussions + install Giscus app
       mapping: pathname
       reactions-enabled: true
 
 format:
   html:
+    include-in-header:
+      text: |
+        <script defer data-domain="briandw.github.io" src="https://plausible.io/js/script.hash.outbound-links.js"></script>
     theme: cosmo
     toc: true
