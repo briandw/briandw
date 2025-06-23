@@ -3,17 +3,17 @@ project:
 
 website:
   title: "Coding with AI"
-  site-url: "https://briandw.github.io/ai-code-blog"
+  site-url: "https://briandw.github.io"
   navbar:
     right:
       - icon: github
-        href: https://github.com/briandw/ai-code-blog
+        href: https://briandw.github.io
       - icon: rss
         href: blog.xml
   google-analytics: "G-XXXXXXX"   # TODO: replace with your GA4 measurement ID
   comments:
     giscus:
-      repo: "briandw/briandw"   # enable GitHub Discussions + install Giscus app
+      repo: "briandw/briandw.github.io"   # enable GitHub Discussions + install Giscus app
       mapping: pathname
       reactions-enabled: true
 
