@@ -1,0 +1,19 @@
+---
+title: "Hello, world"
+date: 2025-06-23
+author: "ßrian"
+categories: [intro]
+summary: "Opening post for my AI & Code blog."
+freeze: true
+---
+
+Welcome! This blog will cover practical AI engineering, Rust adventures, and the odd musings on software security startups.
+
+```python
+def greet(name: str) -> None:
+    print(f"👋  Hello, {name}!")
+
+greet("reader")
+```
+
+That's it for day 0; stay tuned.

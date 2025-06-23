@@ -1,0 +1,9 @@
+---
+title: "Blog"
+layout: list
+feed: true        # generates blog.xml (RSS)
+---
+
+<!--
+This file is just the listing page; individual posts live in /posts.
+-->
